@@ -50,22 +50,17 @@ The dataset contains approximately **100,000 e-commerce orders** with informatio
 ## Project Workflow
 
 ```
-Raw CSV Files
-        │
-        ▼
-Python ETL
-        │
-        ▼
-Data Cleaning
-        │
-        ▼
+Raw Dataset
+      ↓
+ETL (Python + Pandas)
+      ↓
+Transformed CSV
+      ↓
+Load into MySQL
+      ↓
 Data Validation
-        │
-        ▼
-MySQL Database
-        │
-        ▼
-Advanced SQL Analysis
+      ↓
+SQL Analytics
 ```
 
 ---
