@@ -371,30 +371,47 @@ This validation step helps prevent incorrect business conclusions caused by filt
 # 📁 Suggested Project Structure
 
 ```text
-olist-ecommerce-analytics/
-│
-├── data/
-│   └── raw/
-│
-├── etl/
-│   ├── extract.py
-│   ├── transform.py
-│   ├── load_to_mysql.py
-│   └── pipeline.py
-│
-├── sql/
-│   ├── schema.sql
-│   ├── analytics.sql
-│   └── views.sql
-│
-├── powerbi/
-│   └── Olist_Analytics.pbix
+Retail-Data-Warehouse-SQL-Analytics/
 │
 ├── notebooks/
-│   └── data_exploration.ipynb
+│   └── etl.ipynb
 │
-├── README.md
-└── requirements.txt
+├── powerbi/
+│   └── Retail-Data_DashBoard.pbix
+│
+├── python/
+│   ├── load_to_mysql.py
+│   └── validation.py
+│
+├── sql/
+│   ├── 1_Basic_Analysis.sql
+│   ├── 1_sql schema file.sql
+│   ├── 2_Data Exploration.sql
+│   ├── 3_Sales Analysis.sql
+│   ├── 4_Customer_Analysis.sql
+│   ├── 5_Product analysis.sql
+│   ├── 6_delivery_analysis.sql
+│   ├── 7_review analysis.sql
+│   ├── 8_intermediate analysis.sql
+│   ├── 9_analysis using WF.sql
+│   ├── 10_Analysis using CTE.sql
+│   ├── 11_analysis usng views.sql
+│   ├── 12_stored_procedure.sql
+│   └── 13_payment analysis.sql
+│
+├── Transformed_CSV/
+│   ├── customer_clean.csv
+│   ├── location_clean.csv
+│   ├── order_items_clean.csv
+│   ├── orders_clean.csv
+│   ├── payments_clean.csv
+│   ├── product_category_clean.csv
+│   ├── products_clean.csv
+│   ├── reviews_clean.csv
+│   └── sellers_clean.csv
+│
+├── .gitignore
+└── README.md
 ```
 
 ---
@@ -442,3 +459,5 @@ The project demonstrates practical experience with:
 **ETL → Data Warehousing → SQL Analytics → Data Modeling → DAX → Power BI Visualization → Business Insights**
 
 ---
+<img width="1091" height="666" alt="image" src="https://github.com/user-attachments/assets/fa550793-7f26-4c63-9d8d-472d5a4c9770" />
+
